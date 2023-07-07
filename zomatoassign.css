@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.main {
+    background-image: url(./shutterstock_348320018/zomatopic2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: bottom;
+}
+
+#link {
+
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+
+}
+
+ul li {
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li a:hover {
+    border: 1px solid #192F60;
+}
+
+#logo {
+    font-size: 80px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #EB2929;
+    font-weight: bolder;
+    margin-left: 700px;
+    letter-spacing: 0px;
+
+    text-align: center;
+
+
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.first-head {
+    color: #FFFFFF;
+    font-size: 36px;
+    opacity: 100%;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+input {
+    position: absolute;
+
+}
+
+#search {
+    width: 245px;
+    height: 60px;
+    margin-left: 490px;
+    margin-top: 40px;
+    text-align: center;
+    color: #636F88;
+}
+
+#searchone {
+    width: 400px;
+    height: 60px;
+    margin-left: 770px;
+    text-align: center;
+    margin-block: 40px;
+}
+
+
+.fa-solid {
+    margin-left: 740px;
+    width: 17px;
+    height: 17px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 60px;
+    color: #74819E;
+}
+
+.search-value {
+    position: absolute;
+    background-color: #d6d0d0;
+    text-align: center;
+    width: 20rem;
+    bottom: 60%;
+    align-items: center;
+    height: 3rem;
+}
+
+fieldset {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Quick {
+    font-weight: bold;
+    margin: 20px;
+    padding: 40px;
+}
+
+.card {
+    width: 100rem;
+    height: 9rem;
+    background-color: rgb(194, 201, 201);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.card-one {
+    width: 405px;
+    height: 100px;
+    background-color: #FFFFFF;
+    float: left;
+
+}
+
+.card-two {
+    width: 405px;
+    height: 140px;
+    background-color: #FFFFFF;
+    float: right;
+
+}
+
+.card-three {
+    width: 405px;
+    height: 140px;
+    background-color: #FFFFFF;
+}
+
+.card-one>.Breakfast {
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+
+}
+
+.card-one>.para1 {
+    position: absolute;
+
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+
+
+}
+
+.card-two>.lunch {
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+
+}
+
+.card-two>.para2 {
+    position: absolute;
+
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+}
+
+.card-three>.snacks {
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+
+}
+
+.card-three>.para3 {
+    position: absolute;
+
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+}
+
+
+.card-one-one {
+    width: 405px;
+    height: 100px;
+    background-color: #67d120;
+
+    justify-content: left;
+    float: left;
+
+}
+
+.cards {
+    width: 90rem;
+    height: 9rem;
+    background-color: rgb(194, 201, 201);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 160px;
+    margin-left: 60px;
+
+
+}
+
+.card-one-one {
+    width: 405px;
+    height: 100px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.card-two-two {
+    width: 405px;
+    height: 100px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.card-three-three {
+    width: 405px;
+    height: 100px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+/*working for second below cards- dinner card*/
+.card-one-one>.dinner{
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+
+}
+.card-one-one>.dinner-para {
+    position: absolute;
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+
+
+}
+/*working for second below cards- card-drinks*/
+.card-two-two>.drinks{
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+
+
+}
+.card-two-two>.drinks-para {
+    position: absolute;
+
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+
+
+}
+/*working for second below cards- card-Nightlife*/
+.card-three-three>.nightlife{
+    position: absolute;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.card-three-three>.nightlife-para{
+    position: absolute;
+
+    margin-left: 34px;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    color: #8c96ab;
+    padding-top: 40px;
+
+
+}
