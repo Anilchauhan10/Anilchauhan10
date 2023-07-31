@@ -55,3 +55,45 @@ function yourFunction(your) {
     }
     document.getElementsByClassName("faltu")[0].innerText = fuck;
 }
+
+
+//
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        body {
+            background-color: red;
+            color: black;
+        }
+
+        .newBackgroundcolor {
+            background-color: black;
+            color: #fff;
+        }
+    </STYLE>
+    <script>
+        const changeMode = () => {
+            let myChange = document.body;
+
+    </script>
+</head>
+
+<body>
+    <h2> This is how to change theme color</h2>
+    <p> you can do practis a lot and lot</p>
+    <button type="changemode" onclick="changeMode()">Change Theme color</button>
+
+</body>
+
+</html>
+
+<!---- let myBody = document.body;
+            myBody.classList.toggle("newStyle");--></head>
+
+            //</html>
